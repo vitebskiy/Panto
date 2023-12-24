@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Panto</title>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/DMSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container">
+    <nav class="nav" title="Main menu">
+      <a href="#" class="logo nav__logo">
+        <img src="./img/logo.svg" width="78" height="35" alt="Logo">
+      </a>
+
+      <ul class="list-reset nav__list" data-menu>
+
+        <li class="mobil-cart">
+          <a class="mobil-cart__link" href="#">
+            <img class="mobil-cart__img" src="./img/cart.svg" width="34" height="34" alt="cart">
+            <div class="mobil-cart__count">0</div>
+          </a>
+        </li>
+
+        <li class="nav__item"><a href="#" class="nav__link nav__link--dropdown">Furniture</a>
+          <div class="sub-nav">
+            <ul class="list-reset sub-nav__list">
+              <li class="sub-nav__item"><a href="#" class="sub-nav__link">Home</a></li>
+              <li class="sub-nav__item"><a href="#" class="sub-nav__link">Services</a></li>
+              <li class="sub-nav__item"><a href="#" class="sub-nav__link">Products</a></li>
+              <li class="sub-nav__item"><a href="#" class="sub-nav__link">Contacts</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="cart">
+        <a class="cart__link" href="#">
+          <img class="cart__img" src="./img/cart.svg" width="34" height="34" alt="cart">
+          <div class="cart__count">0</div>
+        </a>
+      </div>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero">
+  <div class="hero__wrapper">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Make your interior more minimalistic & modern
+        </h1>
+        <p class="hero__descr">
+          Turn your room with panto into a lot more minimalist and modern with
+          ease and speed
+        </p>
+
+        <form class="search-form">
+          <input
+            placeholder="Search furniture"
+            autocomplete="off"
+            type="text"
+            class="search-form__input hero__input input-reset"
+          >
+          <button class="btn-reset search-form__btn">
+            <img
+              class="search-form__icon"
+              src="img//svg/search.svg"
+              width="14"
+              height="14"
+              alt="Search"
+            >
+          </button>
+        </form>
+      </div>
+
+      <div class="hero__dot-sofa">
+        <div class="btn-reset info-dot">
+          <div class="info-dot__circle"></div>
+          <div class="info-dot__radius"></div>
+        </div>
+        <div class="info-hint none">
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--orange"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--biruza"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--gray"
+            ></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="hero__dot-vase">
+        <div class="btn-reset info-dot">
+          <div class="info-dot__circle"></div>
+          <div class="info-dot__radius"></div>
+        </div>
+        <div class="info-hint none">
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--orange"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--biruza"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--gray"
+            ></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="hero__dot-item">
+        <div class="btn-reset info-dot">
+          <div class="info-dot__circle"></div>
+          <div class="info-dot__radius"></div>
+        </div>
+        <div class="info-hint none">
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--orange"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--biruza"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--gray"
+            ></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="hero__dot-wall">
+        <div class="btn-reset info-dot">
+          <div class="info-dot__circle"></div>
+          <div class="info-dot__radius"></div>
+        </div>
+        <div class="info-hint none">
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--orange"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--biruza"
+            ></div>
+          </label>
+          <label>
+            <input type="radio" name="sofa-color" class="info-hint__radio">
+            <div
+              class="info-hint__radio-fake info-hint__radio-fake--gray"
+            ></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="benefits">
+  <div class="container grid">
+    <h2 class="benefits__title section-title">
+      Why <br />
+      Choosing Us
+    </h2>
+    <ul class="list-reset benefits__list grid">
+      <li class="benefits__item">
+        <h3 class="benefits__heading">Luxury facilities</h3>
+        <p class="benefits__descr">
+          The advantage of hiring a workspace with us is that givees you
+          comfortable service and all-around facilities.
+        </p>
+        <a href="#" class="benefits__link">More Info</a>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__heading">Affordable Price</h3>
+        <p class="benefits__descr">
+          You can get a workspace of the highst quality at an affordable price
+          and still enjoy the facilities that are oly here.
+        </p>
+        <a href="#" class="benefits__link">More Info</a>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__heading">Many Choices</h3>
+        <p class="benefits__descr">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
+        <a href="#" class="benefits__link">More Info</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="products">
+  <div class="container">
+    <h2 class="products__title section-title">Best Selling Product</h2>
+    <div class="products__tabs">
+      <div class="tab-controls">
+        <button data-tab="all" class="btn-reset tab-controls__btn tab-controls__btn--active" aria-label="Open all categories">
+          All
+        </button>
+        <button data-tab="chair" class="btn-reset tab-controls__btn" aria-label="Open Chair categories">
+          Chair
+        </button>
+        <button data-tab="beds" class="btn-reset tab-controls__btn" aria-label="Open Beds categories">
+          Beds
+        </button>
+        <button data-tab="sofa" class="btn-reset tab-controls__btn" aria-label="Open Sofa categories">
+          Sofa
+        </button>
+        <button data-tab="lamp" class="btn-reset tab-controls__btn" aria-label="Open Lamp categories">
+          Lamp
+        </button>
+      </div>
+    </div>
+    <div class="products__slider">
+      <div class="swiper products__swiper">
+        <div class="swiper-wrapper">
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-01.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-01@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Sakarias Armchair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star-off.svg" alt="Star">
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">392</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-02.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-02@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Baltsar Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star-off.svg" alt="Star">
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">299</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-tab-value="beds" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-03.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-03@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+              >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Bed</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Anjay Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star.svg" alt="Star">
+                  <img src="./img/svg/star-off.svg" alt="Star">
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">519</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="sofa" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Sofa</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="lamp" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Lamp</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="beds" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Bed</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="sofa" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Sofa</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="lamp" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Lamp</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-01.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-01@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Sakarias Armchair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">392</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-02.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-02@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Baltsar Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">299</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-tab-value="beds" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-03.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-03@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Bed</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Anjay Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">519</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="sofa" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Sofa</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="lamp" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Lamp</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="beds" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Bed</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="sofa" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Sofa</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="lamp" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Lamp</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div data-tab-value="chair" class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__photo">
+                <img
+                  src="./img/products/chair-04.png"
+                  width="217"
+                  height="255"
+                  srcset="./img/products/chair-04@2x.png 2x"
+                  alt="chair"
+                  class="product-card__img"
+                >
+              </div>
+              <div class="product-card__descr">
+                <a href="#" class="product-card__category">Chair</a>
+                <h3 class="product-card__heading">
+                  <a href="#" class="product-card__link">Nyantuy Chair</a>
+                </h3>
+                <div class="product-card__reiting">
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star.svg" alt="Star" >
+                  <img src="./img/svg/star-off.svg" alt="Star" >
+                </div>
+                <div class="product-card__footer">
+                  <div class="product-card__price" data-value="$">921</div>
+                  <button
+                    class="btn-reset product-card__btn"
+                    aria-label="add to cart"
+                  >
+                    <svg class="product-card__btn--icon">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <button id="slidePrev" class="btn-reset products__slider-btn products__slider-prev" aria-label="Prev slider">
+        <svg class="products__slider-btn--icon">
+          <use xlink:href="img/sprite.svg#slider-left"></use>
+        </svg>
+      </button>
+      <button id="slideNext" class="btn-reset products__slider-btn products__slider-next" aria-label="Next slider">
+        <svg class="products__slider-btn--icon">
+          <use xlink:href="img/sprite.svg#slider-right"></use>
+        </svg>
+      </button>
+    </div>
+    <a href="#" class="products__link">View All</a>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="container container--small">
+    <div class="footer__wrapper footer__grid">
+      <div class="footer__logo">
+        <img src="./img/logo.svg" alt="Logo">
+        <p class="footer__descr">
+          The advantage of hiring a workspace with us is that givees you
+          comfortable service and all-around facilities.
+        </p>
+      </div>
+      <nav class="footer__nav footer__nav--services">
+        <h3 class="footer__nav-title">Services</h3>
+        <ul class="list-reset footer__list">
+          <li class="footer__item">
+            <a href="#">Email Marketing</a>
+            <a href="#">Campaigns</a>
+            <a href="#">Branding</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav">
+        <h3 class="footer__nav-title">Furniture</h3>
+        <ul class="list-reset footer__list">
+          <li class="footer__item">
+            <a href="#">Beds</a>
+            <a href="#">Chair</a>
+            <a href="#">All</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="footer__row">
+      <div class="footer__copyright">Copyright © 2021</div>
+      <div class="footer__links">
+        <a class="footer__link" href="#">Terms & Conditions</a>
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>
