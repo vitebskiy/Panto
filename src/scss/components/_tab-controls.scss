@@ -1,0 +1,39 @@
+/* stylelint-disable color-function-notation */
+/* stylelint-disable alpha-value-notation */
+.tab-controls {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 44px;
+  padding: 6px;
+  background-color: #eee;
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    padding: 7px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 185%;
+    color: #272727;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: rgb(255, 255, 255, 0.5);
+    }
+
+    &--active {
+      background-color: var(--light-color);
+
+      &:hover {
+        background-color: rgb(255, 255, 255, 0.5);
+      }
+    }
+
+    @include laptop {
+      padding: 0 15px;
+      font-size: 15px;
+    }
+  }
+}
