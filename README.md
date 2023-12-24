@@ -6,4 +6,4 @@
 1. Install deps `npm i`
 2. Run `gulp`
 
-### Demo: <a href="https://vitebskiy.github.io/site-Travelx/" target="_blank">Panto</a> 
+### Demo: <a href="https://vitebskiy.github.io/Panto/" target="_blank">Panto</a> 
